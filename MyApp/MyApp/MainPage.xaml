@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="MyApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Green">
+        <AppBarButton x:Name="appBarButton" HorizontalAlignment="Left" Icon="Add" Label="Add" VerticalAlignment="Top" Click="appBarButton_Click" RenderTransformOrigin="0.176,-0.067"/>
+        <AppBarButton x:Name="appBarButton1" HorizontalAlignment="Left" Icon="View" Label="View" Margin="70,2,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.412,0.1"/>
+        <Button x:Name="button" Content="Save File" HorizontalAlignment="Left" Margin="536,320,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <TextBox x:Name="NameBox" HorizontalAlignment="Left" Text="File Name" Header="File Name" VerticalAlignment="Top" Margin="504,142,0,0" TextChanged="textBox_TextChanged" Width="174"/>
+        <TextBox x:Name="ContentBox" HorizontalAlignment="Left" Margin="502,218,0,0" Header="Content" Text="Content" VerticalAlignment="Top" RenderTransformOrigin="0.438,1.438" Width="183"/>
+
+    </Grid>
+</Page>
